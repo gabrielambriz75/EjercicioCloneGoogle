@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: arial, sans-serif;
+}
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 24px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.nav li {
+    font-size: 1.3rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav li button {
+    background-color: #4285F4;
+    color: #ffff;
+    border: none;
+    box-sizing: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+
+main {
+    height: 640px;
+}
+
+
+
+main img {
+    width: 272px;
+    height: 92px;
+}
+
+main .buscador {
+    height: 600px;
+    padding: 20px 100px 200px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.buscador #input-container{
+    position: relative;    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.buscador #input-container .fa-search{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 12px;
+    left: 20px;
+    color: gray;
+}
+
+.buscador #input-container .fa-microphone{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 12px;
+    right: 20px;
+    color: gray;
+}
+
+.buscador #input-container input{
+    height: 44px;
+    width: 561px;
+    text-indent: 50px;
+    font-size: 1.7rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 3px  gray;
+}
+
+.buscador #input-container input{
+    outline: none;
+}
+
+.buscador .botones-busqueda button{
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #5F6368;
+   
+}
+
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+footer .info {
+    list-style: none;
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+
+
+footer .privacidad {
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    cursor: pointer;
+}
+
+footer .info li,
+footer .privacidad li {
+    font-size: 1.3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
